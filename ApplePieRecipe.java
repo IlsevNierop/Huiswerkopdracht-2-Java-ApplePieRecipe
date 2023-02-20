@@ -5,10 +5,6 @@ public class ApplePieRecipe {
 public Ingredient ingredient;
 
 
-public ApplePieRecipe(){
-
-}
-
     public String steps = "Verwarm de oven van te voren op 170 graden Celsius (boven en onderwarmte)\n" +
             "Klop het ei los en verdeel deze in twee delen. De ene helft is voor het deeg, het andere deel is voor het bestrijken van de appeltaart.\n" +
             "Meng de boter, bastard suiker, zelfrijzend bakmeel, een helft van het ei, vanille suiker en een snufje zout tot een stevig deeg en verdeel deze in 3 gelijke delen.\n" +
@@ -22,7 +18,9 @@ public ApplePieRecipe(){
 
     public String[] listSteps = steps.split("\n");
 
+    public ApplePieRecipe(){
 
+    }
     public static void printSteps(String[] listSteps){
         System.out.println("\nSTAPPEN:");
         for (int i = 0; i < listSteps.length ; i++){
