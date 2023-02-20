@@ -31,12 +31,6 @@ public ApplePieRecipe(){
 
 }
 
-//    public ApplePieRecipe(Ingredient ingredient){
-//        this.ingredient = ingredient;
-////        this.step = step;
-//
-//    }
-
     static ArrayList<Ingredient> listIngredients = new ArrayList<>();
 
     public static void addNewIngredients() {
